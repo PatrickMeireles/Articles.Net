@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.extensions.dependencyinjection" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Articles.Application\Articles.Application.csproj" />
+    <ProjectReference Include="..\Articles.Infrasctructure.Data\Articles.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>

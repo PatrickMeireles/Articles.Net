@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "T5RaMJ6k8qS0Ods9moo+WtYdb7dcAT0A3vDsjuGBMFBR8+c9ujYsu4xtRV66JGtSARcetWtTqHYwDjHzPR0h4A==",
+  "success": true,
+  "projectFilePath": "C:\\Git\\GitHub\\Articles.Net\\src\\Articles\\Articles.Application\\Articles.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\patri\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

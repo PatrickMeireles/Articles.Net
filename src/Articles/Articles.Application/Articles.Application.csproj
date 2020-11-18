@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="automapper" Version="10.1.1" />
+    <PackageReference Include="fluentvalidation" Version="9.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Articles.Domain\Articles.Domain.csproj" />
+    <ProjectReference Include="..\Articles.Entities\Articles.Entities.csproj" />
+    <ProjectReference Include="..\Articles.Util\Articles.Util.csproj" />
+  </ItemGroup>
+
+</Project>

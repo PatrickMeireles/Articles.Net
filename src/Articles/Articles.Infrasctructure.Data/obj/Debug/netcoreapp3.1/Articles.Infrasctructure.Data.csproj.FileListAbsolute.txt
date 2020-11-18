@@ -1,0 +1,9 @@
+C:\Git\GitHub\Articles.Net\src\Articles.Api\Articles.Infrasctructure.Data\bin\Debug\netcoreapp3.1\Articles.Infrasctructure.Data.deps.json
+C:\Git\GitHub\Articles.Net\src\Articles.Api\Articles.Infrasctructure.Data\bin\Debug\netcoreapp3.1\Articles.Infrasctructure.Data.dll
+C:\Git\GitHub\Articles.Net\src\Articles.Api\Articles.Infrasctructure.Data\obj\Debug\netcoreapp3.1\Articles.Infrasctructure.Data.csprojAssemblyReference.cache
+C:\Git\GitHub\Articles.Net\src\Articles.Api\Articles.Infrasctructure.Data\obj\Debug\netcoreapp3.1\Articles.Infrasctructure.Data.AssemblyInfoInputs.cache
+C:\Git\GitHub\Articles.Net\src\Articles.Api\Articles.Infrasctructure.Data\obj\Debug\netcoreapp3.1\Articles.Infrasctructure.Data.AssemblyInfo.cs
+C:\Git\GitHub\Articles.Net\src\Articles.Api\Articles.Infrasctructure.Data\bin\Debug\netcoreapp3.1\Articles.Infrasctructure.Data.runtimeconfig.json
+C:\Git\GitHub\Articles.Net\src\Articles.Api\Articles.Infrasctructure.Data\bin\Debug\netcoreapp3.1\Articles.Infrasctructure.Data.runtimeconfig.dev.json
+C:\Git\GitHub\Articles.Net\src\Articles.Api\Articles.Infrasctructure.Data\obj\Debug\netcoreapp3.1\Articles.Infrasctructure.Data.genruntimeconfig.cache
+C:\Git\GitHub\Articles.Net\src\Articles.Api\Articles.Infrasctructure.Data\bin\Debug\netcoreapp3.1\Articles.Entities.dll

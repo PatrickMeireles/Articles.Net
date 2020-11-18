@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore" Version="5.0.0" />
+    <PackageReference Include="microsoft.entityframeworkcore.proxies" Version="5.0.0" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="5.0.0" />
+    <PackageReference Include="microsoft.entityframeworkcore.tools" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="microsoft.extensions.configuration.fileextensions" Version="5.0.0" />
+    <PackageReference Include="microsoft.extensions.configuration.json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Articles.Domain\Articles.Domain.csproj" />
+    <ProjectReference Include="..\Articles.Entities\Articles.Entities.csproj" />
+    <ProjectReference Include="..\Articles.Util\Articles.Util.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+</Project>
