@@ -10,5 +10,7 @@ namespace Articles.Application.Interfaces
         Task<bool> Create(CreateUserViewModel model);
 
         Task<UserViewModel> GetByEmail(string email);
+
+        Task<UserViewModel> GetByHash(string hash);
     }
 }

@@ -21,7 +21,8 @@ namespace Articles.Application.Services
             _mapper = mapper;
         }
 
-        public async Task<UserViewModel> Authenticate(string email, string senha) => _mapper.Map<UserViewModel>(await _user.Authenticate(email, senha));
+        public async Task<UserViewModel> Authenticate(string email, string senha) => 
+                _mapper.Map<UserViewModel>(await _user.Authenticate(email, senha));
 
         public async Task<bool> Create(CreateUserViewModel model)
         {
@@ -40,5 +41,8 @@ namespace Articles.Application.Services
 
         public async Task<UserViewModel> GetByEmail(string email) => 
                 _mapper.Map<UserViewModel>(await _user.GetByEmail(email));
+
+        public async Task<UserViewModel> GetByHash(string hash) =>
+                _mapper.Map<UserViewModel>(await _user.GetByHash(hash));
     }
 }

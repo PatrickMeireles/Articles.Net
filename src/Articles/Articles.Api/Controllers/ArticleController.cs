@@ -15,9 +15,13 @@ namespace Articles.Api.Controllers
     public class ArticleController : Controller
     {
         private readonly IArticleApplication _article;
+        private readonly IUserApplication _user;
 
-        public ArticleController(IArticleApplication article) =>
+        public ArticleController(IArticleApplication article, IUserApplication user)
+        {
             _article = article;
+            _user = user;
+        }
 
         [HttpGet]
         [AllowAnonymous]
@@ -51,6 +55,9 @@ namespace Articles.Api.Controllers
             if (model == null)
                 return NoContent();
 
+            var user = await _user.GetByHash(User.FindFirst(ClaimTypes.Hash).Value);
+            model.IdUser = user.Id;
+
             var validation = new ArticleLikeValidation(_article).Validate(model);
 
             if (!validation.IsValid)
@@ -66,6 +73,9 @@ namespace Articles.Api.Controllers
         {
             if (model == null)
                 return NoContent();
+
+            var user = await _user.GetByHash(User.FindFirst(ClaimTypes.Hash).Value);
+            model.IdUser = user.Id;
 
             var validation = new ArticleDisLikeValidation(_article).Validate(model);
 
